@@ -1,0 +1,11 @@
+case=ols_remote_work
+command=ols
+depvar=log_salary
+covars=wfh_rwo
+options=
+tol_coef=1e-08
+tol_vcov=1e-07
+n=16315
+k=2
+vmli_version=1.4.0
+note=Univariate OLS on the shipped remote_work_data after dropping non-positive salaries.

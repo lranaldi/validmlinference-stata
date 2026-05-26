@@ -1,0 +1,41 @@
+v 3
+d ValidMLInference -- Stata port (BCHS 2025)
+d
+d Inference for regression with AI/ML-generated covariates.
+d Bias-corrected OLS (additive, multiplicative, topic-model variants)
+d and joint MLE (one_step, one_step_gmm) following
+d Battaglia, Christensen, Hansen and Sacher (2025) and
+d Christensen and Hansen (2025).
+d
+d Provides seven commands:
+d   ols              OLS with HC0 robust SEs
+d   ols_bca          additive bias correction (binary AI-generated regressor)
+d   ols_bcm          multiplicative bias correction (binary AI-generated regressor)
+d   ols_bca_topic    additive correction for topic-model regressors
+d   ols_bcm_topic    multiplicative correction for topic-model regressors
+d   one_step         joint MLE with normal / Laplace / Student-t residuals
+d   one_step_gmm     joint MLE with a k-component Gaussian mixture
+d
+d Requires Stata 17 or later.
+d
+d Author: Lorenzo Ranaldi
+d Distribution-Date: 20260526
+d Source: https://github.com/lranaldi/validmlinference-stata
+
+f src/ado/ols.ado
+f src/ado/ols_bca.ado
+f src/ado/ols_bcm.ado
+f src/ado/ols_bca_topic.ado
+f src/ado/ols_bcm_topic.ado
+f src/ado/one_step.ado
+f src/ado/one_step_gmm.ado
+
+f src/mata/lvmli.mlib
+
+f src/help/ols.sthlp
+f src/help/ols_bca.sthlp
+f src/help/ols_bcm.sthlp
+f src/help/ols_bca_topic.sthlp
+f src/help/ols_bcm_topic.sthlp
+f src/help/one_step.sthlp
+f src/help/one_step_gmm.sthlp

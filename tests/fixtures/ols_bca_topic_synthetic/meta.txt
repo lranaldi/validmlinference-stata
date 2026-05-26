@@ -1,0 +1,16 @@
+case=ols_bca_topic_synthetic
+command=ols_bca_topic
+depvar=y
+covars=q1 q2
+options=wmatrix(W) smatrix(S) bmatrix(B) k(0.5)
+tol_coef=1e-08
+tol_vcov=1e-07
+n=300
+k=6
+r=3
+c=5
+v=8
+q=2
+kval=0.5
+vmli_version=1.4.0
+note=Additive topic-model correction; small synthetic recipe (n=300, r=3, c=5, v=8, q=2); k=0.5.

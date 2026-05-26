@@ -1,0 +1,11 @@
+case=one_step_gmm_synthetic
+command=one_step_gmm
+depvar=y
+covars=x1 x2
+options=generated(x1) k(2) nguess(1) maxiter(500) seed(0)
+tol_coef=0.001
+tol_vcov=0.01
+n=2000
+k=3
+vmli_version=1.4.0
+note=One-step Gaussian-mixture MLE with k=2 components, heteroskedastic across the latent treatment. Bimodal centered residuals in each class. nguess=1 to fix the deterministic i=0 path for parity (multistart RNG differs between JAX and Mata).

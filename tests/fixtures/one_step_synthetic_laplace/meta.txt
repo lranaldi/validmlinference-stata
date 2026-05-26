@@ -1,0 +1,11 @@
+case=one_step_synthetic_laplace
+command=one_step
+depvar=y
+covars=x1 x2
+options=generated(x1) dist(laplace)
+tol_coef=0.001
+tol_vcov=0.01
+n=2000
+k=3
+vmli_version=1.4.0
+note=One-step MLE with dist=laplace; true fpr=fnr=0.10, heteroskedastic residuals (b0=0.5, b1=0.8). Tolerance accounts for JAX-LBFGS vs Mata-BFGS optimizer differences.

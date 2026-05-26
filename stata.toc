@@ -1,0 +1,12 @@
+v 3
+d ValidMLInference -- Stata port
+d
+d Inference for regression with AI/ML-generated covariates.
+d Bias-corrected OLS (BCA, BCM, topic-model variants) and joint MLE
+d (one_step, one_step_gmm) following Battaglia, Christensen, Hansen
+d & Sacher (2025) and Christensen & Hansen (2025).
+d
+d Author: Lorenzo Ranaldi
+d Source: https://github.com/lranaldi/validmlinference-stata
+
+p validmlinference  ValidMLInference (Stata port)

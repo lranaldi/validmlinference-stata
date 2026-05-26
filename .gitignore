@@ -1,0 +1,35 @@
+# Stata temp / log artifacts
+*.tmp
+*.tmp.*
+*.smcl
+*.log
+
+# Mata source is shipped as a compiled .mlib; do NOT ignore lvmli.mlib
+# (the .mata source under src/mata/ is also kept on purpose -- it documents
+#  what was built).
+
+# Python build artifacts (only refresh_fixtures.py is Python here)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.conda/
+
+# Generated fixture bundles can be rebuilt from tests/refresh_fixtures.py;
+# but they are committed so that Stata users without a Python environment
+# can still run the parity harness. Keep them tracked -- do NOT ignore
+# tests/fixtures/.
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
+*.swp
+
+# Local replication artifacts that shouldn't be published
+AI_Collaboration/
+Notes/
+.claude/

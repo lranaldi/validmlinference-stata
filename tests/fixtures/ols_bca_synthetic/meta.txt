@@ -1,0 +1,11 @@
+case=ols_bca_synthetic
+command=ols_bca
+depvar=y
+covars=x1 x2
+options=fpr(0.05) m(2000) generated(x1)
+tol_coef=1e-08
+tol_vcov=1e-07
+n=500
+k=3
+vmli_version=1.4.0
+note=Additive bias correction on a synthetic binary regressor; fpr=0.05, m=2000.

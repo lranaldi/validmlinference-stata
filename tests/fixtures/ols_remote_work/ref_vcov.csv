@@ -1,0 +1,5 @@
+row,col,vcov
+_cons,_cons,6.7054218013818729e-06
+_cons,wfh_rwo,-6.7054218013818738e-06
+wfh_rwo,_cons,-6.7054218013818721e-06
+wfh_rwo,wfh_rwo,0.00062055186400566248

@@ -1,0 +1,16 @@
+case=ols_bcm_topic_small_k
+command=ols_bcm_topic
+depvar=y
+covars=q1 q2
+options=wmatrix(W) smatrix(S) bmatrix(B) k(0.005)
+tol_coef=1e-08
+tol_vcov=1e-07
+n=300
+k=6
+r=3
+c=5
+v=8
+q=2
+kval=0.005
+vmli_version=1.4.0
+note=Multiplicative topic-model correction with small k=0.005 -> rho<1 branch.

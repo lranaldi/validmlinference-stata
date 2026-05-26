@@ -1,0 +1,11 @@
+case=ols_synthetic
+command=ols
+depvar=y
+covars=x1 x2 x3
+options=
+tol_coef=1e-08
+tol_vcov=1e-07
+n=200
+k=4
+vmli_version=1.4.0
+note=Pure OLS on 3 standard-normal regressors + intercept; deterministic seed 20260518.

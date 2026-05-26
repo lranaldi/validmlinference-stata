@@ -1,0 +1,16 @@
+case=ols_bcm_topic_large_k
+command=ols_bcm_topic
+depvar=y
+covars=q1 q2
+options=wmatrix(W) smatrix(S) bmatrix(B) k(20.0)
+tol_coef=1e-08
+tol_vcov=1e-07
+n=300
+k=6
+r=3
+c=5
+v=8
+q=2
+kval=20.0
+vmli_version=1.4.0
+note=Multiplicative topic-model correction with large k=20 -> rho>=1 BCA fallback.
